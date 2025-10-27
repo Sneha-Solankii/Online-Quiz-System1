@@ -1,19 +1,19 @@
-# OnlineQuizSystem (JavaFX + MySQL)
+## OnlineQuizSystem (JavaFX + MySQL)
 A complete timed quiz application built with JavaFX and MySQL.
 
-# Objective
+## Objective
 - Build a quiz system with:
 - Timed questions (60s per question)
 - Randomized question loading
 - Score calculation & storage
 - Result display with total score and time taken
 
-# Prerequisites
+## Prerequisites
 - Java 17+ installed
 - Maven installed
 - MySQL server running
 
-# Setup
+## Setup
 1. Import the project into your IDE as a Maven project or run from terminal.
 
 2. Update DB credentials in `src/main/java/com/example/quiz/db/DBConnection.java`:
