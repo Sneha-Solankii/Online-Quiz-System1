@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" 
+      fx:controller="com.example.quiz.ui.QuizSelection" 
+      spacing="10">
+
+    <!-- Padding using Insets tag -->
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Select a Quiz" style="-fx-font-size: 18px;"/>
+    
+    <!-- Dropdown to select quiz -->
+    <ComboBox fx:id="quizComboBox" promptText="Choose Quiz" prefWidth="200"/>
+    
+    <Button fx:id="startBtn" text="StartQuiz" onAction="#startQuiz" prefWidth="150"/>
+    
+    <Label fx:id="msgLabel" textFill="red"/>
+</VBox>
