@@ -21,27 +21,30 @@ A complete timed quiz application built with JavaFX and MySQL.
 
 3. create database and sample
 -  Open MySQL command prompt:
-    mysql -u root -p 
+  
+       mysql -u root -p 
 -  Inside MySQL, create the database:
-    CREATE DATABASE online_quiz;
-    USE online_quiz;
--  source C:/Users/sneha/Downloads/OnlineQuizSystem/src/main/resources/  quiz_db.sql;
+  
+       CREATE DATABASE online_quiz;
+       USE online_quiz;
+       source C:/Users/sneha/Downloads/OnlineQuizSystem/src/main/resources/  quiz_db.sql;
 -  Verify tables:
-   SHOW TABLES;
+
+       SHOW TABLES;
     This creates:
     users
     quizzes
     questions
     results
-   ```
+   
 4. Build:
-   ```
-   mvn clean package
-   ```
+
+       mvn clean package
+   
 5. Run:
-   ```
-   mvn javafx:run
-   ```
+   
+       mvn javafx:run
+   
    Or run the generated jar with required JavaFX modules on module path (IDE runs easier).
 
 ## Notes
